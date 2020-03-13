@@ -188,13 +188,18 @@ input[type="search"] {
 /* We-are-modest 
 ======================= */
 
+.we-are-modest {
+	padding: 70px 0;
+	border-bottom: 1px solid #dde1e4;
+}
+
 .modest-title { 
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
-	color: #292f36;;
+	color: #292f36;
 	text-transform: uppercase;
-	margin: 50px 0;
+	margin-bottom: 60px;
 }
 
 .modest-title:before {
@@ -217,11 +222,10 @@ input[type="search"] {
 	width: 40%;
 }
 
-.we-are-modest {
+.modest-inner {
 	display: flex;
 	justify-content: space-between;
 }
-
 
 .modest-text {
 	margin-bottom: 30px;
@@ -235,7 +239,6 @@ input[type="search"] {
 .modest-bold {
 	font-weight: 700;
 }
-
 
 .goals-title {
 	margin-bottom: 5px;
@@ -288,13 +291,139 @@ input[type="search"] {
 	background-color: #d0d5d9;
 }
 
-.big-line {
-	border-bottom: 1px solid #dde1e4;
-}
-
 
 /* Meet-the-team
 ======================= */
+
+.meet-the-team {
+	padding: 70px 0;
+	border-bottom: 1px solid #dde1e4;
+}
+
+.team-inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.team-inner:last-child {
+	margin-right: 0;
+}
+
+.team-item {
+	position: relative;
+	width: 24%;
+	z-index: 10;
+	margin-right: 10px;
+}
+
+.team-photo {
+	position: relative;
+	width: 100%;
+
+	height: 300px;
+}
+
+.team-info {
+	display: block;
+	/*position: relative;*/
+	top: -2px;
+	padding: 20px;
+
+	width: 100%;
+
+	background-color: #e1e6ea;
+}
+
+.team-name {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 2.9;
+
+	text-transform: uppercase;
+	color: #292f36;
+}
+
+.team-position {
+	font-size: 14px;
+	color: #8d8f92;
+}
+
+
+
+/* Team-hover and Team-socials
+=============================== */
+
+.team-hover {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.team-socials {
+	position: absolute;
+	margin: -25px auto 0 auto;
+	top: 50%;
+	left: 22%;
+	height: 50px;
+
+	z-index: 20;
+	cursor: pointer;
+}
+
+.team-social-item {
+	display: inline-block;
+	margin-right: -1px;
+
+	width: 50px;
+	height: 50px;
+
+	background-color: #3a454d;
+}
+
+/* Hover Team */
+
+.team-social-item:hover {
+	background-color: #4e5a62;
+}
+
+.team-item:hover .team-hover {
+	display: block;
+}
+
+.team-item:hover .team-info {
+	background-color: #3a454d;
+	color: #fff;
+}
+
+.team-item:hover .team-name {
+	color: #fff;
+}
+
+/* Lovely-work 
+======================= */
+
+.lovely-work {
+	padding: 70px 0;
+	background-color: #3a454d;
+}
+
+.work-title {
+	color: #fff;
+}
+
+.work-inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
 
 
 
