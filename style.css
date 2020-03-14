@@ -490,3 +490,146 @@ input[type="search"] {
 	cursor: pointer;
 	margin: 30px auto 0 auto;
 }
+
+/*What we do*/
+
+.what-we-do .container {
+	height: 900px;
+	background-color: #ffffff;
+}
+
+.what-we-do-title {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: #292f36;
+	text-transform: uppercase;
+	margin-top: 90px;
+}
+
+.what-we-do-title:before {
+	content: "";
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	margin-right: 20px;
+
+	height: 35px;
+	width: 10px;
+	background-color: #e1e6ea;
+}
+
+.what-we-do-inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*easy theme setup*/
+
+.easy-theme-setup {
+	width: 265px;
+	height: 225px;
+	background-image: url("img/system.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-top: 95px;
+}
+
+.easy-theme-setup-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 85px;
+}
+
+.easy-theme-setup-text {
+	color: #abadaf;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 1.5;
+}
+
+/*pixel perfect design*/
+
+.pixel-perfect-design {
+	width: 265px;
+	height: 225px;
+	background-image: url("img/pencil.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-left: 25px;
+	margin-top: 95px;
+}
+
+.pixel-perfect-design-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 85px;
+}
+
+.pixel-perfect-design-text {
+	color: #abadaf;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 1.5;
+}
+
+/*responsive display*/
+
+.responsive-display {
+	width: 265px;
+	height: 225px;
+	background-image: url("img/phone.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-left: 25px;
+	margin-top: 95px;
+}
+
+.responsive-display-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 85px;
+}
+
+.responsive-display-text {
+	color: #abadaf;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 1.5;
+}
+
+/*24/7 support*/
+
+.support {
+	width: 265px;
+	height: 225px;
+	background-image: url("img/clock.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-left: 25px;
+	margin-top: 95px;
+}
+
+.support-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 85px;
+}
+
+.support-text {
+	color: #abadaf;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 1.5;
