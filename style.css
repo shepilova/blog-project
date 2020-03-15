@@ -496,6 +496,7 @@ input[type="search"] {
 .what-we-do .container {
 	height: 900px;
 	background-color: #ffffff;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .what-we-do-title {
@@ -641,6 +642,7 @@ input[type="search"] {
 .features {
 	height: 735px;
 	background-color: #3a454d;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .features .container {
@@ -828,6 +830,7 @@ input[type="search"] {
 }
 
 .contact-information-text {
+	font-family: 'Quattrocento Sans', sans-serif;
 	width: 555px;
 	height: 145px;
 	color: #8d8f92;
@@ -935,6 +938,7 @@ input[type="search"] {
 
 	position: absolute;
 	bottom: 0;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
  
 .button:hover ~ .formtohide {
@@ -948,6 +952,7 @@ input[type="search"] {
 	flex-wrap: wrap;
 	padding-bottom: 60px;
 	display: none;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .contact-information {
@@ -956,6 +961,87 @@ input[type="search"] {
 }
 
 /*footer*/
+
+.footer {
+	height: 95px;
+	background-color: #3a454d;
+}
+
+.footer-inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-1 {
+	width:400px;
+	color: #fff;
+}
+
+.footer-title {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 15px;
+	padding-top: 40px;
+}
+
+.footer-title:before {
+	 content:"\00a9";
+	 position: center left;
+	 padding-right: 5px;
+	 width: 15px;
+	 height: 15px;
+}
+
+.footer-2 {
+	height: 95px;
+	width: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 530px;
+}
+
+.footer-twitter {
+	background-image: url("img/twitter-s.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 40px;
+	height: 95px;
+}
+
+.footer-facebook {
+	background-image: url("img/facebook-s.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 40px;
+	height: 95px;
+}
+
+.footer-skype {
+	background-image: url("img/skype.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 40px;
+	height: 95px;
+}
+
+.footer-be {
+	background-image: url("img/Be-s.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 40px;
+	height: 95px;
+}
+
+.footer-linkedin {
+	background-image: url("img/linkedin-s.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 40px;
+	height: 95px;
+}
+
+
+
+
 
 
 
