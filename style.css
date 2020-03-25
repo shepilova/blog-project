@@ -793,8 +793,7 @@ input[type="search"] {
 	background-image: url("img/map.png");
 	background-position: center;
 	height: 350px;
-	background-height: 352px;
-	background-width: 100%;
+	
 	border: none;
 	position: relative;
 	z-index: 1;
@@ -939,11 +938,12 @@ input[type="search"] {
 	position: absolute;
 	bottom: 0;
 	font-family: 'Quattrocento Sans', sans-serif;
+
+	cursor: pointer;
 }
  
-.button:hover ~ .formtohide {
-	display:flex;
-	flex-wrap: wrap;
+.button:hover {
+	background-color: #25d4bd;
 }
 
 .formtohide {
@@ -951,7 +951,7 @@ input[type="search"] {
 	display: flex;
 	flex-wrap: wrap;
 	padding-bottom: 60px;
-	display: none;
+	/*display: none;*/
 	font-family: 'Quattrocento Sans', sans-serif;
 }
 
